@@ -40,9 +40,9 @@ for student in cleaned_students:
         print("\nOutput:")
         print(student["name"].upper())
         print(student["name"].lower())
-#
-#
-#
+print()
+print()
+print()
 # TASK 2: Marks Analysis Using Loops & Conditionals
 print("\n Task 2: Marks Analysis Using Loops & Conditionals \n")
 student_name = "Ayesha Sharma"
@@ -63,7 +63,7 @@ for i in range(len(subjects)):
     else:
         grade = "F"
     print(f"{subjects[i]}: {scores} ({grade})")
-
+#
 # Calculation of Marks
 total = sum(marks)
 average = round(total / len(marks), 2)
@@ -101,9 +101,9 @@ while True:
 print("New subjects added:", new_count)
 updated_avg = round(sum(marks) / len(marks), 2)
 print("Updated Average is:", updated_avg)
-#
-#
-#
+print()
+print()
+print(0
 # TASK 3: Class Performance Summary
 print("\n Task 3: Class Performance Summary \n")
 class_data = [("Ayesha Sharma",  [88, 72, 95, 60, 78]),
@@ -138,9 +138,9 @@ print("Passed:", pass_ct)
 print("Failed:", fail_ct)
 print(f"Topper: {topper} ({top_avg})")
 print("Class Average:", class_avg)
-#
-#
-#
+print()
+print()
+print()
 #TASK 4: String Manipulation Utility
 print("\n Task 4: String Manipulation Utility \n")
 essay = "python is a versatile language. it supports object oriented,functional, and procedural programming. python is widely used in data science and machine learning."
